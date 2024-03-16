@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+}
+.general-container{
+    display: flex;
+    padding: 4.8rem 0.5rem 1rem 3rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    margin: 5rem;
+}
+.product{
+    display: flex;
+    width: 23rem;
+}
+.product p{
+    margin-left: 1rem;
+    line-height: 1.7rem;
+}
+.first-container{
+    margin-top: 0.8rem;
+}
+.stay{
+    width: 20rem;
+    margin-top: 4rem;
+    font-family:"Roboto", sans-serif;
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+}
+.stay h1{
+    margin-bottom: 2rem;
+    color: hsl(234, 29%, 20%);
+}
+.stay p{
+    font-size: 14px;
+}
+button{
+    margin-top: 1rem;
+    padding: 0.9rem 3.2rem;
+    border-radius: 5px;
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+form{
+    margin-top: 1.5rem;
+}
+input{
+    margin-top: 1rem;
+    padding: 0.7rem 4rem;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px;
+}
+.products{
+    margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+label{
+    color: hsl(234, 29%, 20%);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(235, 18%, 26%);
+    cursor: pointer;
+}
+#errormessage{
+    color: red;
+    display: none;
+}
+.img-container h1{
+    display: none;
+}
+.img-container p{
+    display: none;
+}
+.img-container button{
+    display: none;
+}
